@@ -1,0 +1,24 @@
+body {
+    background-color: #FFEDCA;
+}
+h1 {
+    text-align: center;
+    color: #CC6600;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 400px;
+}
+
+th {
+    background-color: #CC6600;
+    color: #FFFFFF;
+}
+
+tr.a td {
+    background-color: #FFFFFF;
+}
