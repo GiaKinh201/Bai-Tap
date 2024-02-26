@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: #006600;
+}
+h2 {
+    text-decoration: underline;
+    color: #00f;
+}
+.text1 {
+    font-weight: bold;
+}
+.text2 {
+    text-align: center;
+}
+div {
+    text-align: center;
+    font-style: italic;
+    background-color: #FFFFCC;
+}
+hr {
+    width: 200px;
+}
