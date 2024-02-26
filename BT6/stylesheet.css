@@ -1,0 +1,18 @@
+
+h2 {
+    text-align: center;
+    color: orange;
+    border: solid 4px orange;
+}
+font {
+    color: red;
+}
+.text::first-letter {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: red;
+}
+.orange {
+    color: black;
+    background-color: orange;
+}
