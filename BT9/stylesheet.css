@@ -1,0 +1,21 @@
+body {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #CC0033;
+}
+
+table, th, td {
+    border: 2px solid orange;
+    border-collapse: collapse;
+    
+}
+td {
+    text-align: center;
+}
+
+
+
+
