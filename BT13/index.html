@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển trên form</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    
+</head>
+<body>
+    <form style="background-color: bisque;" action="" id="form_1">
+        <font>Đăng ký du lịch</font>
+        <table>
+            <tr>
+                <td >
+                    Họ và tên
+                </td>
+                <td>
+                        <input style="text-align: left" type="text" name="" id="name" >
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    Địa chỉ
+                </td>
+                <td>
+                        <input type="text" name="" id="diachi">   
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    Điện thoại
+                </td>
+                <td>
+                    <input type="text" name="" id="sdt">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    Khách Việt Nam
+                </td>
+                <td>
+                    <input type="checkbox" id="Viet_nam" checked="checked">
+                </td>   
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    Chọn tour
+                </td>
+                <td>
+                    <select name="" id="tour">
+                        <optgroup label="MIền Bắc">
+                            <option value="">Hà Nội - Hạ Long - Sapa</option>
+                            <option value="">Hà Nội - Chùa Hương - Ninh Bình</option>
+                            <option value="">Hà Nội - Cát Bà - Tuấn Châu</option>
+                        </optgroup>
+                        <optgroup label="MIền Trung">
+                            <option value="">Huế - Bạch Mã - Đà Nẵng</option>
+                            <option value="">Buôn Ma Thuật - Gia Lai - Kontum</option>
+                        </optgroup>
+                        <optgroup label="MIền Nam">
+                            <option value="">TP Hồ Chí Minh - Cần Thơ - Cà Mau</option>
+                            <option value="">TP Hồ Chí Minh - Mỹ Tho</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    Phương tiện
+                </td>
+                <td>
+                    <input type="radio" id="" name="" >Máy bay
+                    <input type="radio" id="" name="" checked="checked">Xe ô tô
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset style="display: flex; border: 2px solid red; width: 350px; height: 55px; align-items: center; text-align: center;">
+                        <legend>Số lượng hành khách</legend>
+                        <legend style="display: flex;">Người lớn
+                            <input type="text" name="" id="" size="4px">
+                        </legend>
+                        <legend style="display: flex;">Trẻ em
+                            <input type="text" name="" id="" size="4px">
+                        </legend>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">
+                    Ghi chú thêm
+                </td>
+                <td>
+                    <textarea style="width: 300px;" name="" id="ghi_chu" ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input onclick="onClickMe()" type="button" value="Đồng ý" id="btn_dangky">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="dieu_khien_nhan">
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        function onClickMe() {
+            var dkien_nhan = document.getElementById('dieu_khien_nhan')
+            console.log(dkien_nhan)
+            dkien_nhan.innerHTML = '<font>Bạn đã đăng ký thành công</font>'
+        }
+    </script>
+</body>
+</html>

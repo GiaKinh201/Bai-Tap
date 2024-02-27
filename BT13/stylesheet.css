@@ -1,0 +1,26 @@
+body {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+table {
+    background-color: rgb(185, 244, 185);
+}
+td {
+    text-align: left;
+}
+font {
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
