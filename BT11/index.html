@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển trên form</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    
+</head>
+<body>
+    <form  action="" id="form_1">
+        <font>Đăng Nhập</font>
+        <table>
+            <tr>
+                <td style="text-align: left;"> 
+                    Mã người dùng
+                </td>
+                <td>
+                    <input type="text" name="" id="text_MND">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"> 
+                    Mật khẩu
+                </td>
+                <td>
+                    <input type="password" name="" id="text_PW">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input onclick="onClickMe()" type="button" value="Đồng ý" id="btn_yes">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="dieu_khien_nhan">
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        function onClickMe() {
+            MND = document.querySelector('#text_MND')
+            console.log(MND)
+            document.querySelector('#dieu_khien_nhan').innerText = MND.value
+        }
+    </script>
+</body>
+</html>
