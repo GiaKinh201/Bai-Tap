@@ -1,0 +1,76 @@
+.underline {
+    text-decoration: underline;
+}
+.orange {
+    color: orange;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.white {
+    color: white;
+}
+.pink {
+    color: pink;
+}
+.background-orange {
+    background: orange;
+}
+.background-yellow {
+    background: yellow;
+}
+.background-pink {
+    background: pink;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+.block-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.margin-0 {
+    margin: 0;
+}
+.first-chr-big::first-letter {
+    font-size: 4em;
+    font-weight: bold;
+}
+.line-first-left::first-line {
+    text-align: left;
+}
+.bold {
+    font-weight: bold;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    font-weight: normal;
+}
+.clearfix {
+    clear: both;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}

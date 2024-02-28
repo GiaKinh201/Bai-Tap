@@ -1,0 +1,45 @@
+.wrap {
+    border: 1px solid #969797;
+    margin-bottom: 5px;
+}
+.wrap .body {
+    width: 100%;
+}
+
+.wrap .body .left:not(.other) {
+    width: 100px;
+}
+
+.wrap .body .right:not(.other) {
+    width: calc(100%-100px);
+}
+
+.wrap .body .left.other {
+    width: calc(100%-200px);
+}
+
+.wrap .body .right.other {
+    width: 200px;
+}
+
+.img {
+    width: 100%;
+}
+
+.wrap .title > p {
+    background-color: #006599;
+    color: #fff;
+    font-size: 19px;
+    padding: 2px 0;
+    margin-top: 0;
+}
+
+.wrap .body > p {
+    color: #1B5E8C;
+    font-weight: bold;
+    margin: 5px 0 0;
+}
+
+.line {
+    border-top: 1px solid #969797;
+}
