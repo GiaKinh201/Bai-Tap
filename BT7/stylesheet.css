@@ -1,3 +1,25 @@
+#wrap {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrap > .left {
+    width: 300px;
+    float: left;
+}
+
+#wrap > .right {
+    width: 550px;
+    height: 400px;
+    float: right;
+    position: relative;
+}
+
+.right li {
+    color: black;
+    font-size: 20px;
+}
 
 h2 {
     text-align: center;
@@ -5,31 +27,18 @@ h2 {
 }
 
 font {
+    width: 100%;
+    display: inline-block;
     font-weight: bold;
     color: white;
     background-color: pink;
 }
 
-.block{
-    display: flex;
-}
-
-.block1 {
-    width: 300px;
-}
-
-.block2 {
-    width: 550px;
-    height: 400px;
-    position: relative;
-}
-
-ul.a {
-    list-style: square;
-}
-
-a {
+.copyright {
+    font-size: 20px;
+    color: blue;
     position: absolute;
     bottom: 0;
-    background-color: pink;
+    width: 100%;
+    margin: 0;
 }

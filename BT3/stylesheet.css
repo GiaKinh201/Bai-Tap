@@ -1,12 +1,24 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrap {
+    width: 550px;
+    height: 450px;
+    padding: 10px;
     background-color: #A06D21;
-    color: #FFFFFF;
     background-image: url(./vltt.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 h2 {
     text-align: center;
     color: #FFCC00;
+}
+
+section {
+    color: #fff;
+}
+
+p {
+    margin: 5px 0;
 }

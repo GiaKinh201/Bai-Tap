@@ -1,9 +1,18 @@
-body {
+body p{
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1em;
+    padding: 5px 0;
+}
+#wrap {
+    padding: 5px;
+    width: 600px;
+    height: 350px;
     color: #008888;
     background-image: url(./pattaya.jpg);
     background-attachment: fixed;
     background-repeat: repeat;
 }
-h2 {
+h1 {
     text-align: center;
 }

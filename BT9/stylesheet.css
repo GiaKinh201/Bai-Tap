@@ -2,13 +2,23 @@ body {
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#wrap {
+    width: 660px;
+    margin-right: auto;
+    margin-left: auto;
+}
 h1 {
     text-align: center;
     color: #CC0033;
 }
 
+table {
+    width: 100%;
+}
+
 table, th, td {
-    border: 2px solid orange;
+    border: 1px solid orange;
     border-collapse: collapse;
     
 }

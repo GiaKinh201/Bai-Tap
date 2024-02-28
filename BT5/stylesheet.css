@@ -7,6 +7,7 @@ font {
     color: red;
 }
 pre {
+    padding-left: 20px;
     background-color: #CCCCCC;
     color: #0000CC;
 }

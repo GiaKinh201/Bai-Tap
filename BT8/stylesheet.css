@@ -1,17 +1,36 @@
-body {
+#wrap {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #FFEDCA;
 }
+
+#wrap > .left {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center 8%;
+}
+
+#wrap > .right{
+    width: 350px;
+    height: 300px;
+    float: left;
+}
+
 h1 {
-    text-align: center;
     color: #CC6600;
 }
 
 table, th, td {
-    border: 2px solid black;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 table {
-    width: 400px;
+    width: 100%;
 }
 
 th {

@@ -3,6 +3,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#wrap {
+    width: 702px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 table, th, td {
     border: 2px solid #CD6864;
