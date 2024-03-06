@@ -1,39 +1,45 @@
-#wrap {
+.wrap {
     width: 850px;
     margin-left: auto;
     margin-right: auto;
 }
-
-#wrap > .left {
-    width: 300px;
+.left {
     float: left;
 }
-
-#wrap > .right {
+.right {
+    float: right;
+}
+.wrap > .left {
+    width: 300px;
+}
+.wrap > .right {
     width: 550px;
     height: 400px;
-    float: right;
     position: relative;
 }
-
 .right li {
     color: black;
     font-size: 20px;
 }
-
-h2 {
+.right li > span {
+    width: 100px;
+    display: inline-block;
+}
+.center {
     text-align: center;
+}
+.pink {
     color: pink;
 }
-
-font {
-    width: 100%;
-    display: inline-block;
-    font-weight: bold;
-    color: white;
+.background-pink {
     background-color: pink;
 }
-
+.white {
+    color: #fff;
+}
+.bold {
+    font-weight: bold;
+}
 .copyright {
     font-size: 20px;
     color: blue;
@@ -41,4 +47,7 @@ font {
     bottom: 0;
     width: 100%;
     margin: 0;
+}
+.right li:first-child  ul{
+    list-style: square;
 }
