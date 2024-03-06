@@ -1,18 +1,31 @@
+* {
+    box-sizing: border-box;
+    }
 body {
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#wrap {
+.wrap {
     width: 660px;
     margin-right: auto;
     margin-left: auto;
 }
-h1 {
-    text-align: center;
+.title {
     color: #CC0033;
 }
-
+.white {
+    color: #fff;
+}
+.orange {
+    color: orange;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
 table {
     width: 100%;
 }
@@ -21,6 +34,12 @@ table, th, td {
     border: 1px solid orange;
     border-collapse: collapse;
     
+}
+table tr th {
+    background-color: #CC0033;
+}
+table tr:first-child th:first-child {
+    width: 180px;
 }
 td {
     text-align: center;
