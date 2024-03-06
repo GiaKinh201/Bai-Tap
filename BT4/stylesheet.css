@@ -4,7 +4,7 @@ body p{
     line-height: 1em;
     padding: 5px 0;
 }
-#wrap {
+.wrap {
     padding: 5px;
     width: 600px;
     height: 350px;
@@ -13,6 +13,12 @@ body p{
     background-attachment: fixed;
     background-repeat: repeat;
 }
-h1 {
+.center {
     text-align: center;
+}
+
+.wrap p:first-child {
+    color: #fff;
+    background-color: #399;
+    font-style: italic;
 }

@@ -1,22 +1,49 @@
-h1 {
-    text-align: center;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
     color: #006600;
 }
-h2 {
+
+.text-required {
     text-decoration: underline;
     color: #00f;
 }
-.text1 {
+
+.mom {
+    color: #ff3399;
+    background-color: #FECFFD;
     font-weight: bold;
 }
-.text2 {
-    text-align: center;
-}
-div {
+
+.wrap {
     text-align: center;
     font-style: italic;
     background-color: #FFFFCC;
 }
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
+
+.under-line {
+    text-decoration: underline;
+}
 hr {
+    margin: 15px auto;
     width: 200px;
 }

@@ -1,13 +1,19 @@
 
-h2 {
+.center {
     text-align: center;
-    color: green;
 }
-font {
+.red {
     color: red;
 }
-pre {
-    padding-left: 20px;
-    background-color: #CCCCCC;
+.blue {
     color: #0000CC;
+}
+.green {
+    color: green;
+}
+.background-gray {
+    background-color: #CCCCCC;
+}
+.background-gray pre {
+    padding-left: 20px;
 }

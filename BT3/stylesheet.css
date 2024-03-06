@@ -1,7 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-#wrap {
+.wrap {
     width: 550px;
     height: 450px;
     padding: 10px;
@@ -10,12 +15,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-h2 {
+.title {
     text-align: center;
     color: #FFCC00;
 }
 
-section {
+.white {
     color: #fff;
 }
 

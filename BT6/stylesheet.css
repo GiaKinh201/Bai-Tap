@@ -1,24 +1,42 @@
-#wrap {
+* {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+.wrap {
     width: 850px;
     margin-left: auto;
     margin-right: auto;
 }
-h2 {
+.title {
     border-style: double;
     border-color: orange;
     text-align: center;
-    color: orange;
     outline: solid 2px orange;
 }
-font {
+.red {
     color: red;
+}
+.orange {
+    color: orange;
+}
+.white {
+    color: white;
 }
 .text::first-letter {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     color: red;
 }
-.yellow {
-    color: black;
+.text-right {
+    text-align: right;
+}
+.background-yellow {
     background-color: yellow;
+}
+.background-orange {
+    background-color: orange;
+}
+.under-line {
+    text-decoration: underline;
 }

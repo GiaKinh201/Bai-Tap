@@ -1,12 +1,9 @@
-h1 {
-    text-align: center;
-}
-h2 {
+.under-line {
     text-decoration: underline;
 }
-.text1 {
+.bold {
     font-weight: bold;
 }
-.text2 {
+.center {
     text-align: center;
 }
