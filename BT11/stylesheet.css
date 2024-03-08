@@ -12,13 +12,25 @@ table, th, td {
 table {
     background-color: rgb(128, 233, 233);
 }
-td {
+.text-center {
     text-align: center;
 }
-font {
+.text-left {
+    text-align: left;
+}
+.title {
     color: #FE0000;
     font-size: 18px;
     font-weight: bold;
+}
+.error {
+    color: red;
+    font-size: 18px;
+}
+
+.success {
+    color: green;
+    font-size: 18px;
 }
 
 
