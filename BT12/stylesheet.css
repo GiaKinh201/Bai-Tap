@@ -1,25 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-table, th, td {
-    border: 2px solid black;
+.center {
+    margin: 0 auto;
+}
+.tbl {
+    border-spacing: 0px;
+}
+.tbl tr td {
+    border: 1px solid black;
     border-collapse: collapse;
-    
+    padding: 5px;
+    color: white;    
+    background-color: rgb(134, 232, 134);
 }
 
-table {
-    background-color: rgb(185, 244, 185);
+.title {
+    color: green;
 }
-td {
+.text-center {
     text-align: center;
 }
-font {
-    color: green;
-    font-size: 18px;
-    font-weight: bold;
+.hidden {
+    display: none;
 }
+.message {
+    color: red !important;
+}
+#name{
+    width: 315px;
+}
+#address{
+    width: 250px;
+}
+#quantity{
+    width: 100px;
+}
+
 
 
 

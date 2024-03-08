@@ -8,96 +8,74 @@
     
 </head>
 <body>
-    <form  action="" id="form_1">
-        <font>Phiếu đăng ký tham gia chương trình khuyến mãi</font>
-        <table>
+    <div class="center">
+        <h2 class="title">Phiếu đăng ký tham gia chương trình khuyễn mãi</h2>
+        <table class="tbl">
             <tr>
-                <td style="text-align: left;">
-                    Họ và tên
-                </td>
+                <td>Họ và tên</td>
                 <td>
-                        <input type="text" name="" id="name" >
+                    <input type="text" name="name" id="name"/>
                 </td>
             </tr>
             <tr>
-                <td style="text-align: left;">
-                    Địa chỉ
-                </td>
+                <td>Địa chỉ</td>
                 <td>
-                        <input type="text" name="" id="diachi">   
+                    <input type="text" name="address" id="address"/>
                 </td>
             </tr>
             <tr>
-                <td style="text-align: left;">
-                    Điện thoại
-                </td>
+                <td>Điện thoại</td>
                 <td>
-                    <input type="text" name="" id="sdt">
+                    <input type="text" name="phone" id="phone"/>
                 </td>
             </tr>
             <tr>
-                <td style="text-align: left;">
-                    Phái
-                </td>
+                <td>Phái</td>
                 <td>
-                    <input type="radio" name="" id="" checked="checked">Nam
-                    <input type="radio" name="" id="">Nữ
-                </td>   
+                    <input type="radio" name="sex" id="sex1"/> Nam 
+                    <input type="radio" name="sex" id="sex2"/> Nữ
+                </td>
             </tr>
             <tr>
-                <td style="text-align: left;">
-                    Nghề nghiệp
-                </td>
+                <td>Nghề nghiệp</td>
                 <td>
-                    <select name="" id="nghe_nghiep">
-                        <option value="bacsi">Bác sĩ</option>
-                        <option value="kysu">Kỹ sư</option>
-                        <option value="giaovien">Giáo viên</option>
-                        <option value="khac">Khác</option>
+                    <select id="job" name="job">
+                        <option value="1">Giáo viên</option>
+                        <option value="2">Công nhân</option>
+                        <option value="3">Làm nông</option>
+                        <option value="4">Khác</option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <td style="text-align: left;">
-                    Chọn sản phẩm tham gia
-                </td>
+                <td>Chọn sản phẩm tham gia</td>
                 <td>
-                    <select name="" id="sanpham" size="4" multiple="multiple">
-                        <option value="Kem danh rang">Kem danh rang</option>
-                        <option value="Bot giat">Bot giat</option>
-                        <option value="Dau goi">Dau goi</option>
-                        <option value="Sua tam">Sua tam</option>
+                    <select id="products" name="products" multiple>
+                        <option value="1">Kem đánh răng</option>
+                        <option value="2">Bột giặt</option>
+                        <option value="3">Dầu gội đầu</option>
+                        <option value="4">Sữa tắm</option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <td style="text-align: left;">
-                    Số người dự đoán tham gia
-                </td>
+                <td>Số người dự đoán tham gia</td>
                 <td>
-                    <input type="text" name="" id="dudoan">
+                    <input type="text" name="quantity" id="quantity"/>
                 </td>
             </tr>
             <tr>
-                <td colspan="2">
-                    <input onclick="onClickMe()" type="button" value="Đăng ký" id="btn_dangky">
+                <td colspan="2" class="text-center">
+                    <input type="button" name="btn-agree" id="btn-agree" value="Đồng ý" onclick="showText();">
                 </td>
             </tr>
-            <tr>
-                <td colspan="2">
-                    <div id="dieu_khien_nhan">
-
-                    </div>
+            <tr class="hidden" id="tr-message">
+                <td colspan="2" class="text-center message">
+                    Bạn đã đăng ký thành công!
                 </td>
             </tr>
         </table>
-    </form>
-    <script>
-        function onClickMe() {
-            MND = document.querySelector('#name')
-            console.log(MND.value)
-            document.querySelector('#dieu_khien_nhan').innerHTML = "<font>Bạn đã đăng ký thành công</font>"
-        }
-    </script>
+    </div>
+    <script src="showText.js"></script>
 </body>
 </html>
