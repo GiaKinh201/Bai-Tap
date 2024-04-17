@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý công việc</title>
+</head>
+<body>
+    <input type="text" id="task" placeholder="Nhập công việc">
+    <button onclick="addTask()">Thêm công việc</button>
+    <button onclick="deleteTask()">Xóa công việc</button>
+    <ul id="taskList"></ul>
+
+    <script>
+        function addTask() {
+            let task = document.getElementById('task').value;
+            if(task !== "") {
+                let taskList = document.getElementById('taskList');
+                let listItem = document.createElement("li");
+                listItem.textContent = task;
+                listItem.onclick = function() {
+                    this.classList.toggle('completed');
+                }
+                taskList.appendChild(listItem);
+                document.getElementById('task').value = ""
+            }
+        }
+    </script>
+</body>
+</html>
